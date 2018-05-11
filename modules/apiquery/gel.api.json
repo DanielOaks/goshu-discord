@@ -1,0 +1,24 @@
+{
+    "display_name": "Gelbooru", 
+    "description": "<query> --- stupid pictures and all that fun stuff", 
+    "url": "http://gelbooru.com/index.php?page=dapi&s=post&q=index&json=1&limit=1&tags={escaped_query}", 
+    "format": "json", 
+    "response": "http://gelbooru.com/index.php?page=post&s=view&id={id} rating:{rating}",
+    "response_dict": {
+        "id":     ["json", [0, "id"]], 
+        "rating": ["json", [0, "rating"]]
+    },
+    "embed": {
+        "title": "Gelbooru",
+        "description": "rating:{rating} {tags}",
+        "url": "http://gelbooru.com/index.php?page=post&s=view&id={id}",
+        "image": "{file_url}",
+        "color": [32, 132, 253]
+    },
+    "embed_dict": {
+        "file_url": ["json", [0, "file_url"]],
+        "id":       ["json", [0, "id"]],
+        "rating":   ["json", [0, "rating"]],
+        "tags":     ["json", [0, "tags"]]
+    }
+}

@@ -1,0 +1,11 @@
+PyYAML
+colorama
+http-status
+nose2
+pyparsing
+pyquery
+requests
+wolframalpha
+
+
+git+https://github.com/Rapptz/discord.py.git@rewrite

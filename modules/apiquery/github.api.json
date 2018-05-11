@@ -1,0 +1,12 @@
+{
+    "display_name": "GitHub", 
+    "description": "<query> --- github repo search", 
+    "url": "https://api.github.com/legacy/repos/search/{escaped_query}", 
+    "format": "json", 
+    "response": "https://github.com/{author}/{name} --- {description}",
+    "response_dict": {
+        "name":        ["json", ["repositories", 0, "name"]], 
+        "author":      ["json", ["repositories", 0, "username"]], 
+        "description": ["json", ["repositories", 0, "description"]]
+    }
+}
