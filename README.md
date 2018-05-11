@@ -2,7 +2,7 @@
 
 Goshu is a powerful chatbot, written for Python3. Utilising simple YAML configuration files, a fast, extensible module system and useful, configurable logging, Goshu allows you to create your own personalised IRC or Discord bot in no time!
 
-[Hosted Documentation](http://goshu.readthedocs.org/en/latest/)
+This is a fork/port of my IRC-based [Goshu](https://github.com/goshuirc/goshu) that's designed to work with Discord instead. May the two meet in the middle at some point and form a glorious union.
 
 
 # License

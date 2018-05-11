@@ -1,0 +1,10 @@
+# ikamouto's config file
+
+# discord (bot) user token
+token: 'discord-user-token-here'
+
+# name you can use to mention the bot, for example "goshu help" or "goshu dice"
+mention: goshu
+
+# game to show the bot as playing
+game: "on Discord!"
